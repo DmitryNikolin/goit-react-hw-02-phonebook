@@ -20,7 +20,7 @@ const ContactList = ({ contacts, onRemove, children }) => {
                       onRemove(contact.id);
                     }}
                   >
-                    ⛌
+                    Delete
                   </button>
                 </li>
               );
