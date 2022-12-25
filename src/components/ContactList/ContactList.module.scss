@@ -29,19 +29,20 @@
         }
       }
       & button {
-        border: 1px solid grey;
+        border: 1px solid red;
         background-color: white;
-        border-radius: 50%;
-        width: 25px;
+        width: 55px;
         height: 25px;
         align-items: center;
         line-height: 0;
         padding: 0;
-        color: tomato;
+        border-radius: 15px;
+        color: red;
         font-weight: 800;
         &:hover {
-          background-color: grey;
-          color: whitesmoke;
+          background-color: red;
+          color: white;
+          cursor: pointer;
         }
       }
     }
